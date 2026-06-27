@@ -11,13 +11,13 @@ header,
 footer {
     text-align: center;
     padding: 15px;
-    background-color: #1b1b20;
+    background-color: #7c7c81;
     border-radius: 4px;
 }
 
 /* Menú de navegación */
 nav {
-    background: #333;
+    background: #301515;
     padding: 15px;
     margin: 20px 0;
     border-radius: 4px;
@@ -81,8 +81,8 @@ footer {
 }
 
 #contenedor-flex div {
-    background-color: #393a72;
-    color: rgb(110, 86, 86);
+    background-color: #41414b;
+    color: rgb(83, 76, 76);
     padding: 20px;
     border-radius: 8px;
     width: 100px;
@@ -97,7 +97,7 @@ section {
 body {
     font-family: Arial, sans-serif;
     padding: 20px;
-    background-color: #1b2f47;
+    background-color: #596675;
    
 }
 
