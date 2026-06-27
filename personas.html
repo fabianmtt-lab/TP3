@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Gestión de Personas</h1>
+        <nav>
+            <a href="index.html"> Inicio</a>
+            <a href="FlexBox.html"> Ejercicio1</a>
+            <a href="react.html">Ejercio3</a>
+
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <form id="form-persona">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" placeholder="Nombre" required>
+
+                <label for="apellido">Apellido:</label>
+                <input type="text" id="apellido" placeholder="Apellido" required>
+
+                <label for="edad">Edad:</label>
+                <input type="number" id="edad" placeholder="Edad" required>
+
+                <label for="altura">Altura (cm):</label>
+                <input type="number" id="altura" placeholder="Altura (cm)" required>
+
+                <label for="peso">Peso (kg):</label>
+                <input type="number" id="peso" placeholder="Peso (kg)" required>
+
+                <button type="submit">Agregar</button>
+            </form>
+        </section>
+
+        <section>
+            <table id="tabla-personas">
+                <thead>
+                    <tr>
+                        <th>Nombre</th>
+                        <th>Apellido</th>
+                        <th>Edad</th>
+                        <th>Altura</th>
+                        <th>Peso</th>
+                        <th>IMC</th>
+                        <th>Acción</th>
+                    </tr>
+                </thead>
+                <tbody id="cuerpo-tabla">
+                </tbody>
+            </table>
+        </section>
+    </main>
+    <footer>2026</footer>
+    <script src="Personas.js"></script>
+</body>
+
+</html>
