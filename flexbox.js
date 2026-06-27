@@ -21,5 +21,5 @@ boton.addEventListener('click', () => {
     elementos.reverse();
     renderizar();
 });
-
+  
 renderizar();
